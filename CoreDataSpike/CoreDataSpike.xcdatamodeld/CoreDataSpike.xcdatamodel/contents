@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11A511" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Task">
+        <attribute name="created" optional="YES" attributeType="Date"/>
+        <attribute name="due" optional="YES" attributeType="Date"/>
+        <attribute name="finished" optional="YES" attributeType="Date"/>
+        <attribute name="started" optional="YES" attributeType="Date"/>
+        <attribute name="taskDescription" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Task" positionX="160" positionY="192" width="128" height="135"/>
+    </elements>
+</model>

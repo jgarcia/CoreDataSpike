@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11D0F4E913ECEDAA00C7BDFA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D0F4E813ECEDAA00C7BDFA /* Cocoa.framework */; };
+		11D0F4F313ECEDAA00C7BDFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11D0F4F113ECEDAA00C7BDFA /* InfoPlist.strings */; };
+		11D0F4F513ECEDAA00C7BDFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0F4F413ECEDAA00C7BDFA /* main.m */; };
+		11D0F4F913ECEDAA00C7BDFA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 11D0F4F713ECEDAA00C7BDFA /* Credits.rtf */; };
+		11D0F4FC13ECEDAA00C7BDFA /* CoreDataSpikeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0F4FB13ECEDAA00C7BDFA /* CoreDataSpikeAppDelegate.m */; };
+		11D0F4FF13ECEDAA00C7BDFA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D0F4FD13ECEDAA00C7BDFA /* MainMenu.xib */; };
+		11D0F50213ECEDAA00C7BDFA /* CoreDataSpike.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11D0F50013ECEDAA00C7BDFA /* CoreDataSpike.xcdatamodeld */; };
+		11D0F50A13ECF1A900C7BDFA /* CDSTasksController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0F50913ECF1A900C7BDFA /* CDSTasksController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11D0F4E413ECEDAA00C7BDFA /* CoreDataSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D0F4E813ECEDAA00C7BDFA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		11D0F4EB13ECEDAA00C7BDFA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		11D0F4EC13ECEDAA00C7BDFA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		11D0F4ED13ECEDAA00C7BDFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11D0F4F013ECEDAA00C7BDFA /* CoreDataSpike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataSpike-Info.plist"; sourceTree = "<group>"; };
+		11D0F4F213ECEDAA00C7BDFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11D0F4F413ECEDAA00C7BDFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11D0F4F613ECEDAA00C7BDFA /* CoreDataSpike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataSpike-Prefix.pch"; sourceTree = "<group>"; };
+		11D0F4F813ECEDAA00C7BDFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		11D0F4FA13ECEDAA00C7BDFA /* CoreDataSpikeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataSpikeAppDelegate.h; sourceTree = "<group>"; };
+		11D0F4FB13ECEDAA00C7BDFA /* CoreDataSpikeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataSpikeAppDelegate.m; sourceTree = "<group>"; };
+		11D0F4FE13ECEDAA00C7BDFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		11D0F50113ECEDAA00C7BDFA /* CoreDataSpike.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataSpike.xcdatamodel; sourceTree = "<group>"; };
+		11D0F50813ECF1A900C7BDFA /* CDSTasksController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSTasksController.h; sourceTree = "<group>"; };
+		11D0F50913ECF1A900C7BDFA /* CDSTasksController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSTasksController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11D0F4E113ECEDAA00C7BDFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D0F4E913ECEDAA00C7BDFA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D0F4D913ECEDAA00C7BDFA = {
+			isa = PBXGroup;
+			children = (
+				11D0F4EE13ECEDAA00C7BDFA /* CoreDataSpike */,
+				11D0F4E713ECEDAA00C7BDFA /* Frameworks */,
+				11D0F4E513ECEDAA00C7BDFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11D0F4E513ECEDAA00C7BDFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11D0F4E413ECEDAA00C7BDFA /* CoreDataSpike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11D0F4E713ECEDAA00C7BDFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11D0F4E813ECEDAA00C7BDFA /* Cocoa.framework */,
+				11D0F4EA13ECEDAA00C7BDFA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11D0F4EA13ECEDAA00C7BDFA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11D0F4EB13ECEDAA00C7BDFA /* AppKit.framework */,
+				11D0F4EC13ECEDAA00C7BDFA /* CoreData.framework */,
+				11D0F4ED13ECEDAA00C7BDFA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		11D0F4EE13ECEDAA00C7BDFA /* CoreDataSpike */ = {
+			isa = PBXGroup;
+			children = (
+				11D0F4FA13ECEDAA00C7BDFA /* CoreDataSpikeAppDelegate.h */,
+				11D0F4FB13ECEDAA00C7BDFA /* CoreDataSpikeAppDelegate.m */,
+				11D0F4FD13ECEDAA00C7BDFA /* MainMenu.xib */,
+				11D0F50013ECEDAA00C7BDFA /* CoreDataSpike.xcdatamodeld */,
+				11D0F4EF13ECEDAA00C7BDFA /* Supporting Files */,
+				11D0F50813ECF1A900C7BDFA /* CDSTasksController.h */,
+				11D0F50913ECF1A900C7BDFA /* CDSTasksController.m */,
+			);
+			path = CoreDataSpike;
+			sourceTree = "<group>";
+		};
+		11D0F4EF13ECEDAA00C7BDFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11D0F4F013ECEDAA00C7BDFA /* CoreDataSpike-Info.plist */,
+				11D0F4F113ECEDAA00C7BDFA /* InfoPlist.strings */,
+				11D0F4F413ECEDAA00C7BDFA /* main.m */,
+				11D0F4F613ECEDAA00C7BDFA /* CoreDataSpike-Prefix.pch */,
+				11D0F4F713ECEDAA00C7BDFA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11D0F4E313ECEDAA00C7BDFA /* CoreDataSpike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D0F50513ECEDAA00C7BDFA /* Build configuration list for PBXNativeTarget "CoreDataSpike" */;
+			buildPhases = (
+				11D0F4E013ECEDAA00C7BDFA /* Sources */,
+				11D0F4E113ECEDAA00C7BDFA /* Frameworks */,
+				11D0F4E213ECEDAA00C7BDFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataSpike;
+			productName = CoreDataSpike;
+			productReference = 11D0F4E413ECEDAA00C7BDFA /* CoreDataSpike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11D0F4DB13ECEDAA00C7BDFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Binary Day";
+			};
+			buildConfigurationList = 11D0F4DE13ECEDAA00C7BDFA /* Build configuration list for PBXProject "CoreDataSpike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11D0F4D913ECEDAA00C7BDFA;
+			productRefGroup = 11D0F4E513ECEDAA00C7BDFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11D0F4E313ECEDAA00C7BDFA /* CoreDataSpike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11D0F4E213ECEDAA00C7BDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D0F4F313ECEDAA00C7BDFA /* InfoPlist.strings in Resources */,
+				11D0F4F913ECEDAA00C7BDFA /* Credits.rtf in Resources */,
+				11D0F4FF13ECEDAA00C7BDFA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11D0F4E013ECEDAA00C7BDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D0F4F513ECEDAA00C7BDFA /* main.m in Sources */,
+				11D0F4FC13ECEDAA00C7BDFA /* CoreDataSpikeAppDelegate.m in Sources */,
+				11D0F50213ECEDAA00C7BDFA /* CoreDataSpike.xcdatamodeld in Sources */,
+				11D0F50A13ECF1A900C7BDFA /* CDSTasksController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11D0F4F113ECEDAA00C7BDFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D0F4F213ECEDAA00C7BDFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11D0F4F713ECEDAA00C7BDFA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D0F4F813ECEDAA00C7BDFA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		11D0F4FD13ECEDAA00C7BDFA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D0F4FE13ECEDAA00C7BDFA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11D0F50313ECEDAA00C7BDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		11D0F50413ECEDAA00C7BDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		11D0F50613ECEDAA00C7BDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataSpike/CoreDataSpike-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataSpike/CoreDataSpike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11D0F50713ECEDAA00C7BDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataSpike/CoreDataSpike-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataSpike/CoreDataSpike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11D0F4DE13ECEDAA00C7BDFA /* Build configuration list for PBXProject "CoreDataSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D0F50313ECEDAA00C7BDFA /* Debug */,
+				11D0F50413ECEDAA00C7BDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D0F50513ECEDAA00C7BDFA /* Build configuration list for PBXNativeTarget "CoreDataSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D0F50613ECEDAA00C7BDFA /* Debug */,
+				11D0F50713ECEDAA00C7BDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		11D0F50013ECEDAA00C7BDFA /* CoreDataSpike.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				11D0F50113ECEDAA00C7BDFA /* CoreDataSpike.xcdatamodel */,
+			);
+			currentVersion = 11D0F50113ECEDAA00C7BDFA /* CoreDataSpike.xcdatamodel */;
+			path = CoreDataSpike.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 11D0F4DB13ECEDAA00C7BDFA /* Project object */;
+}
